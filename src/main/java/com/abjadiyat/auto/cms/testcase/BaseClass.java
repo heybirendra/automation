@@ -18,7 +18,7 @@ public class BaseClass {
 
     @BeforeClass
     public static void setup() {
-        System.setProperty("webdriver.chrome.driver", "/Users/b.mishra/Downloads/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "driver/chromedriver");
         webDriver = new ChromeDriver();
     }
 
